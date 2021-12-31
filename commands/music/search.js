@@ -31,7 +31,7 @@ module.exports = {
         embed.setDescription(`${maxTracks.map((track, i) => `**${i + 1}**. ${track.title} | ${track.author}`).join('\n')}\n\nArasından bir şarkı seçin **1** ile **${maxTracks.length}** arasında seçip yaz gönder veya **cancel** yaz ve seçimi iptal et.⬇️`);
 
         embed.setTimestamp();
-        embed.setFooter('Edited by Umut Bayraktar ❤️', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('Edited by BuffLL', message.author.avatarURL({ dynamic: true }));
 
         message.channel.send({ embeds: [embed] });
 

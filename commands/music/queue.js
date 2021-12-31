@@ -28,7 +28,7 @@ module.exports = {
         embed.setDescription(`Şuanda Çalan: \`${queue.current.title}\`\n\n${tracks.slice(0, 5).join('\n')}\n\n${nextSongs}`);
 
         embed.setTimestamp();
-        embed.setFooter('Edited by Umut Bayraktar ❤️', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('Edited by BuffLL', message.author.avatarURL({ dynamic: true }));
 
         message.channel.send({ embeds: [embed] });
     },

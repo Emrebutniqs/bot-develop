@@ -27,7 +27,7 @@ module.exports = {
         embed.setDescription(`Ses **%${queue.volume}**\nSüre **${trackDuration}**\nDöngü Modu **${methods[queue.repeatMode]}**\nMüziği Açan ${track.requestedBy}`);
 
         embed.setTimestamp();
-        embed.setFooter('Edited by Umut Bayraktar ❤️', message.author.avatarURL({ dynamic: true }));
+        embed.setFooter('Edited by BuffLL', message.author.avatarURL({ dynamic: true }));
 
         const saveButton = new MessageButton();
 
