@@ -1,6 +1,6 @@
 module.exports = {
         px: 'z!',
-        token: 'OTI2MTI3MjE5ODMzNzI5MDQ0.Yc3JLw.jBUWoz-dkq3uPRNHo0Le4HHOBlw', //DİSCORD BOTUNUZUN TOKENİNİ YAZIN
+        token: '', //DİSCORD BOTUNUZUN TOKENİNİ YAZIN
         playing: 'Created by BuffLL',
 
     opt: {
