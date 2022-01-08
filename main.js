@@ -19,3 +19,8 @@ require('./src/loader');
 require('./src/events');
 
 global.client.login(global.client.config.token);
+
+const fetch = require("node-fetch") //modülü belirttik.  
+setInterval(() => { 
+fetch(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 10000) //10 saniyede bir döngüyü tekrarlar.
